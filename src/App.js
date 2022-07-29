@@ -10,17 +10,25 @@ const App = () => {
   return (
     <StrictMode>
       <ThemeContext.Provider value={theme}>
-        <BrowserRouter>
-          <header>
-            <Link to="/">
-              <i className="fa-solid fa-house"></i> Pet Store!
-            </Link>
-          </header>
-          <Routes>
-            <Route path="/details/:id" element={<Details />} />
-            <Route path="/" element={<SearchParams />} />
-          </Routes>
-        </BrowserRouter>
+        <div
+          className="p-0 m-0"
+          style={{
+            background:
+              "url(http://pets-images.dev-apis.com/pets/wallpaperB.jpg)",
+          }}
+        >
+          <BrowserRouter>
+            <header className="w-full mb-10 text-center p-7 bg-gradient-to-b from-purple-500 via-pink-500 to-red-500">
+              <Link to="/" className="text-6xl text-white">
+                <i className="fa-solid fa-house"></i> Pet Store!
+              </Link>
+            </header>
+            <Routes>
+              <Route path="/details/:id" element={<Details />} />
+              <Route path="/" element={<SearchParams />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
       </ThemeContext.Provider>
     </StrictMode>
   );
