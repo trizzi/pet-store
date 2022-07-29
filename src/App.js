@@ -12,7 +12,9 @@ const App = () => {
       <ThemeContext.Provider value={theme}>
         <BrowserRouter>
           <header>
-            <Link to="/">Adopt Me!</Link>
+            <Link to="/">
+              <i className="fa-solid fa-house"></i> Pet Store!
+            </Link>
           </header>
           <Routes>
             <Route path="/details/:id" element={<Details />} />
