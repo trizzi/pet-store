@@ -26,7 +26,16 @@ class Details extends Component {
       this.state;
 
     return (
-      <div className="details">
+      <div
+        className="mx-auto rounded-md "
+        style={{
+          background: "#faeff0",
+          width: "1100px",
+          padding: "15px",
+          marginBottom: "25px",
+          boxShadow: " 0px 0px 12px #aaa, -0px -0px 12px #fff",
+        }}
+      >
         <Carousel images={images} />
         <div>
           <h1>{name}</h1>
@@ -35,6 +44,7 @@ class Details extends Component {
             {([theme]) => (
               <button
                 onClick={this.toggleModal}
+                className="rounded px-6 py-2 text-white hover:opacity-50 border-none"
                 style={{ backgroundColor: theme }}
               >
                 Adopt {name}
@@ -44,11 +54,30 @@ class Details extends Component {
           <p>{description}</p>
           {showModal ? (
             <Modal>
-              <div>
+              <div
+                style={{
+                  // background: "white",
+                  maxWidth: "500px",
+                  padding: "15px",
+                  textAlign: "center",
+                  borderRadius: "30px",
+                  background: "#faeff0",
+                }}
+              >
                 <h1>Would you like to adopt {name}?</h1>
-                <div className="buttons">
-                  <a href="https://bit.ly/pet-adopt">Yes</a>
-                  <button onClick={this.toggleModal}>No</button>
+                <div>
+                  <a
+                    className="bg-emerald-400 px-6 py-2 rounded hover:opacity-50 border-none inline-block text-white m-4 no-underline"
+                    href="https://bit.ly/pet-adopt"
+                  >
+                    Yes
+                  </a>
+                  <button
+                    className=" bg-red-700 rounded px-6 py-2 text-white hover:opacity-50 border-none"
+                    onClick={this.toggleModal}
+                  >
+                    No
+                  </button>
                 </div>
               </div>
             </Modal>
