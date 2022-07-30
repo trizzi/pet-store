@@ -27,24 +27,21 @@ class Details extends Component {
 
     return (
       <div
-        className="mx-auto rounded-md "
+        className="mx-auto max-w-5xl rounded-md p-4 mb-6 overflow-y-hidden"
         style={{
           background: "#faeff0",
-          width: "1100px",
-          padding: "15px",
-          marginBottom: "25px",
           boxShadow: " 0px 0px 12px #aaa, -0px -0px 12px #fff",
         }}
       >
         <Carousel images={images} />
-        <div>
+        <div className="my-2 mx-8">
           <h1>{name}</h1>
           <h2>{`${animal} — ${breed} — ${city}, ${state}`}</h2>
           <ThemeContext.Consumer>
             {([theme]) => (
               <button
                 onClick={this.toggleModal}
-                className="rounded px-6 py-2 text-white hover:opacity-50 border-none"
+                className="rounded px-6 py-2 my-3 text-white hover:opacity-50 border-none"
                 style={{ backgroundColor: theme }}
               >
                 Adopt {name}

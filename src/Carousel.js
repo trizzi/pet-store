@@ -19,9 +19,13 @@ class Carousel extends Component {
     const { active } = this.state;
     const { images } = this.props;
     return (
-      <div className="flex justify-around items-center mt-2 h-96">
-        <img src={images[active]} alt="animal" className="max-h-96 max-w-lg " />
-        <div className="rounded-full">
+      <div className="flex flex-wrap justify-around items-center my-2">
+        <img
+          src={images[active]}
+          alt="animal"
+          className="h-96 w-96 lg:max-h-96 sm:w-lg rounded-2xl"
+        />
+        <div className="flex sm:flex-wrap rounded-full mb-4">
           {images.map((photo, index) => (
             // eslint-disable-next-line
             <img
