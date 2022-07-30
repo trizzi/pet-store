@@ -1,14 +1,15 @@
 {
-  "name": "adopt-me",
+  "name": "Pat Store",
   "version": "7.0.0",
-  "description": "Adopt pets via adopt-me",
+  "description": "Pet Store",
   "main": "src/App.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "build": "parcel build",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
-  "author": "Brian Holt <btholt+citr-v7-project@gmail.com>",
+  "author": "Trizzi",
   "license": "Apache-2.0",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.16.7",
