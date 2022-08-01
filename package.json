@@ -4,9 +4,10 @@
   "description": "Pet Store",
   "main": "src/App.js",
   "scripts": {
-    "build": "parcel src/index.html",
+    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "build": "parcel build"
   },
   "author": "Trizzi",
   "license": "Apache-2.0",
