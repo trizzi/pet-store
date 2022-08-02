@@ -12,6 +12,8 @@ const parts = html.split("not rendered");
 
 const app = express();
 
+// const path = require("path");
+
 app.use("/frontend", express.static("dist/frontend"));
 app.use((req, res) => {
   res.write(parts[0]);
@@ -29,6 +31,9 @@ app.use((req, res) => {
     res.end();
   });
 });
+// app.get("*", (req, res) =>
+//   res.sendFile(path.resolve(__dirname, "dist", "frontend", "index.html"))
+// );
 
 console.log(`Listening on http://localhost:${PORT}`);
 app.listen(PORT);
