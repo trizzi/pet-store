@@ -1,9 +1,10 @@
 # Table Of Content
-*Project Title
-*Project Description
-*Project Image
-*How To Set It Up On Your Local Machine
-*Libraries And Frameworks Used For The Project
+-Project Title
+-Project Description
+-Project Image
+-How To Set It Up On Your Local Machine
+-Libraries And Frameworks Used For The Project
+
 # Pet-Store
 This is a small web app project that can be used to order for pets from different locations.
 
