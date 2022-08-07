@@ -28,8 +28,8 @@ https://62efae6f488b4a0e99a067e0--euphonious-gumdrop-ea939c.netlify.app/
 * open in an editing tool(Vscode recommended)
 * use the following command in your CLI to run your code:
 
--npm install
--npm rub dev
+* npm install
+* npm rub dev
 * After that there will be a link in display after it starts running which is http://localhost:1234/ (This link will work if the project is properly setup in your computer and run at the default react port)
 
 # Libraries And Frameworks Used For The Project
