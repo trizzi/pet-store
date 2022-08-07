@@ -11,7 +11,7 @@ This is a small web app project that can be used to order for pets from differen
 
 # Project Description
 As stated above, the pet store is a store for different types of pets of different breeds in 
-various plcases in USA. When you select the state, and animal, it triggers the breed input to 
+various places in USA. When you select the state, and animal, it triggers the breed input to 
 display the type of breed of pet available in that state.The theme is just to change the color 
 of the button and show the selected color on the button of the display page. 
 
@@ -29,7 +29,7 @@ https://62efae6f488b4a0e99a067e0--euphonious-gumdrop-ea939c.netlify.app/
 * use the following command in your CLI to run your code:
 
 * npm install
-* npm rub dev
+* npm run dev
 * After that there will be a link in display after it starts running which is http://localhost:1234/ (This link will work if the project is properly setup in your computer and run at the default react port)
 
 # Libraries And Frameworks Used For The Project
