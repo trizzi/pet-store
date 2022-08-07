@@ -14,12 +14,11 @@ display the type of breed of pet available in that state.The theme is just to ch
 of the button and show the selected color on the button of the display page. 
 
 # Project Image
-![chrome_6x9t9n99rq](https://user-images.githubusercontent.com/33966004/183292897-6651417e-e47c-44a9-80e2-f25204446eeb.png)
-![chrome_4DJoHoiGFL](https://user-images.githubusercontent.com/33966004/183292901-72d3fec2-c969-4f5b-ad24-c7ac81e1a6af.png)
-
+![WhatsApp Image 2022-08-07 at 2 31 09 PM (1)](https://user-images.githubusercontent.com/33966004/183293314-685820ed-3cb2-402e-b9f5-5de80b0a90a0.jpeg)
+![WhatsApp Image 2022-08-07 at 2 31 09 PM](https://user-images.githubusercontent.com/33966004/183293315-42c40e2a-9ab8-45b2-ad73-28fa3cf491ef.jpeg)
 
 How To Set It Up On Your Local Machine
-Clone this git repo: git@github.com:trizzi/pet-store.git
+Clone this git repo: @github.com:trizzi/pet-store.git
 
 Get in the directory of the project
 
@@ -32,5 +31,5 @@ npm rub dev
 After that there will be a link in display after it starts running which is http://localhost:1234/ (This link will work if the project is properly setup in your computer and run at the default react port)
 
 Libraries And Frameworks Used For The Project
-Parce; React for frontend
+Parcel - React for frontend
 Jest for unit testing
