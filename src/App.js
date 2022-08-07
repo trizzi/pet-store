@@ -1,22 +1,22 @@
 import { render } from "react-dom";
 import SearchParams from "./SearchParams";
-import { StrictMode, useState } from "react";
+import { StrictMode } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Details from "./Details";
-import ThemeContext from "./ThemeContext";
+import { Provider } from "react-redux";
+import store from "./store";
 
 const App = () => {
-  const theme = useState("darkblue");
   return (
     <StrictMode>
-      <ThemeContext.Provider value={theme}>
-        <div
-          className="p-0 m-0"
-          style={{
-            background: "#81a69b",
-          }}
-        >
-          <BrowserRouter>
+      <Provider store={store}>
+        <BrowserRouter>
+          <div
+            className="p-0 m-0"
+            style={{
+              background: "#81a69b",
+            }}
+          >
             <header className="w-full mb-10 text-center p-7">
               <Link to="/" className="text-6xl text-white">
                 <i className="fa-solid fa-house"></i> Pet Store!
@@ -26,9 +26,9 @@ const App = () => {
               <Route path="/details/:id" element={<Details />} />
               <Route path="/" element={<SearchParams />} />
             </Routes>
-          </BrowserRouter>
-        </div>
-      </ThemeContext.Provider>
+          </div>
+        </BrowserRouter>
+      </Provider>
     </StrictMode>
   );
 };

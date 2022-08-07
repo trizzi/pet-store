@@ -1,3 +1,18 @@
 {
-  "plugins": ["@babel/plugin-proposal-class-properties"]
+  
+  "plugins": ["@babel/plugin-proposal-class-properties"],
+  
+//   "presets": [
+//     [
+//       "@babel/preset-react",
+//       {
+//         "pragma": "dom",
+//         "pragmaFrag": "DomFrag", 
+//         "throwIfNamespace": false, 
+//         "runtime": "classic" 
+//       }
+//     ]
+//   ]
+  
+// }
 }
