@@ -33,5 +33,5 @@ https://62efae6f488b4a0e99a067e0--euphonious-gumdrop-ea939c.netlify.app/
 * After that there will be a link in display after it starts running which is http://localhost:1234/ (This link will work if the project is properly setup in your computer and run at the default react port)
 
 # Libraries And Frameworks Used For The Project
-Parcel - React for frontend
-Jest for unit testing
+* Parcel - React for frontend
+* Jest for unit testing
