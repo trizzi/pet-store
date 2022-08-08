@@ -1,3 +1,5 @@
+[![Checks](https://github.com/trizzi/pet-store/actions/workflows/pull_request_checks.yml/badge.svg)](https://github.com/trizzi/pet-store/actions/workflows/pull_request_checks.yml)
+
 # Table Of Content
 * Project Title
 * Project Description
