@@ -34,4 +34,5 @@ https://62efae6f488b4a0e99a067e0--euphonious-gumdrop-ea939c.netlify.app/
 
 # Libraries And Frameworks Used For The Project
 * Parcel - React for frontend
+* Tailwind Css and inline styling for Css
 * Jest for unit testing
