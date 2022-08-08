@@ -6,7 +6,7 @@ class Carousel extends Component {
   };
 
   static defaultProps = {
-    images: ["http://pets-images.dev-apis.com/pets/none.jpg"],
+    images: ["https://pets-images.dev-apis.com/pets/none.jpg"],
   };
 
   handleIndexClick = (event) => {
@@ -21,6 +21,7 @@ class Carousel extends Component {
     return (
       <div className="flex flex-wrap justify-around items-center my-2">
         <img
+          data-testid="hero"
           src={images[active]}
           alt="animal"
           className="h-96 w-96 lg:max-h-96 sm:w-lg rounded-2xl"
@@ -29,6 +30,7 @@ class Carousel extends Component {
           {images.map((photo, index) => (
             // eslint-disable-next-line
             <img
+              data-testid={`thumbnails${index}`}
               key={photo}
               src={photo}
               style={{

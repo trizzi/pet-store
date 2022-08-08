@@ -9,11 +9,15 @@ class Details extends Component {
   state = { loading: true, showModal: false };
 
   async componentDidMount() {
-    const res = await fetch(
-      `http://pets-v2.dev-apis.com/pets?id=${this.props.params.id}`
-    );
-    const json = await res.json();
-    this.setState(Object.assign({ loading: false }, json.pets[0]));
+    try {
+      const res = await fetch(
+        `https://pets-v2.dev-apis.com/pets?id=${this.props.params.id}`
+      );
+      const json = await res.json();
+      this.setState(Object.assign({ loading: false }, json.pets[0]));
+    } catch (error) {
+      console.log("Error from the Details page", error);
+    }
   }
   toggleModal = () => this.setState({ showModal: !this.state.showModal });
   adopt = () => (window.location = "http://bit.ly/pet-adopt");
