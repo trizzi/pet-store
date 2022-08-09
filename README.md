@@ -1,3 +1,5 @@
+[![Checks](https://github.com/trizzi/pet-store/actions/workflows/node.js.yml/badge.svg)](https://github.com/trizzi/pet-store/actions/workflows/node.js.yml)
+
 # Table Of Content
 * Project Title
 * Project Description
