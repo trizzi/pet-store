@@ -56,5 +56,8 @@
     "setupFiles": [
       "./src/setupJest.js"
     ]
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
