@@ -9,8 +9,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js"
+    "test:coverage": "jest --coverage"
   },
   "author": "Trizzi",
   "license": "Apache-2.0",
