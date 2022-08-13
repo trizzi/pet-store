@@ -25,7 +25,7 @@ https://62efae6f488b4a0e99a067e0--euphonious-gumdrop-ea939c.netlify.app/
 ![WhatsApp Image 2022-08-07 at 2 31 09 PM](https://user-images.githubusercontent.com/33966004/183293315-42c40e2a-9ab8-45b2-ad73-28fa3cf491ef.jpeg)
 
 # How To Set It Up On Your Local Machine
-* Clone this git repo: @github.com:trizzi/pet-store.git
+* Clone this git repo: git@github.com:trizzi/pet-store.git
 * Get in the directory of the project
 * open in an editing tool(Vscode recommended)
 * use the following command in your CLI to run your code:
