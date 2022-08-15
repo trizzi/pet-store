@@ -2,7 +2,6 @@
   "name": "Pet-Store",
   "version": "7.0.0",
   "description": "Pet Store",
-  "main": "src/App.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
